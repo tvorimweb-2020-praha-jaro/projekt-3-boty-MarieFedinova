@@ -39,9 +39,8 @@ body {
 
 .vizual {
     position: relative;
-    flex-grow: 1;
     flex-basis: 50%;
-    padding: 30px 30px;
+    padding: 30px;
     color: white;
     background: linear-gradient(#06d7c1,#50cc49);
     border-radius: 2% 0 0 2%;
@@ -59,23 +58,23 @@ body {
     bottom: -5px;
 }
 
-.cena {
-    font-size: 28px;
-    font-weight: 500;
+.cenovka {
     position: absolute;
-    bottom: 50px;
-    right: 30px;
-}
-
-.zaruka {
-    font-size: 12px;
-    position: absolute;
+    text-align: right;
     bottom: 30px;
     right: 30px;
 }
 
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+}
+
 .detaily {
-    flex-grow: 1;
     flex-basis: 50%;
     padding: 30px 30px;
     background-color: white;
